@@ -29,6 +29,6 @@ node_t *rbtree_max(const rbtree *);
 int rbtree_erase(rbtree *, node_t *);
 
 int rbtree_to_array(const rbtree *, key_t *, const size_t);
-int in_order(node_t *, key_t *, const size_t, int, const rbtree *);
+int in_order(const rbtree *,node_t *, key_t *, const size_t, int);
 
 #endif  // _RBTREE_H_

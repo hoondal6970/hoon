@@ -11,7 +11,5 @@ int main(void){
 
     int arr[100] = {0,};
     rbtree_to_array(t,arr,5);
-    
-    
-
+   
 }
